@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  padding: 0;
+  min-width: 400px;
+  box-sizing: border-box;
+  background-color: aliceblue;
+}
+.offline-img {
+  height: 200px;
+  width: 200px;
+  background-color: aliceblue;
+  background-blend-mode: overlay;
+}
+#offline-text {
+  color: red;
+  font-weight: bold;
+  border: 2px solid gray;
+}
+
+li {
+  color: red;
+}
+#matches {
+  text-align: center;
+  list-style: none;
+  padding: 0;
+  box-shadow: 10;
+}
+.match {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin: 10px;
+  background-color: #f0f0f0;
+}
+.type-cont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 6px;
+}
+#type {
+  color: black;
+  text-align: center;
+}
+.teams {
+  color: blueviolet;
+}
+#scores {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: rgb(132, 13, 13);
+}
+.team-name {
+  color: darkblue;
+}
+.match-status {
+  color: red;
+}
+#match-status-title {
+  color: black;
+}
+.team-flag {
+  height: 16px;
+  width: 16px;
+}

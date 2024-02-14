@@ -1,0 +1,17 @@
+{
+  "name": "CricLive 🏏",
+  "version": "1.0.0",
+  "description": "Live Status of Cricket Matches",
+  "manifest_version": 3,
+  "author":"Hammad Malik",
+  "icons": {
+    "16": "images/icon16.png",
+    "32": "images/icon32.png",
+    "96": "images/icon96.png"
+  },
+
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "CricLive 🏏"
+  }
+}
